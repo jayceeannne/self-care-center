@@ -1,51 +1,27 @@
-# Self Care Center
-## Overview
-How can I care for myself? One way is with affirmations and mantras!
-Affirmations are thoughts of positive self-empowerment, meant to assert your self-worth.
-Mantras are repetive phrases that are repeated again and again during mindfulness practices. Your challenge is to build an app that helps users remind themselves of their inherent value!
-
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
-
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/self-care-center.html). 
-
-## Learning Goals
-
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
-
-## Setup
-
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
-
-______________________________________________________  
-# README Template  
-Before turning this project in, erase this line and everything above it and fill in the info below.  
-______________________________________________________  
-
 # Self-Care Center 
 
 ### Abstract:
-[//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
+- I built an application that generates a randomized mantra or affirmation. When the application loads the user is offered one of two options, one being an affirmation and the other being a mantra. This Javascript application uses query selectors, event listeners, and a method to randomize the arrays index to push an affirmation or mantra that is displayed on the lower hallf of the application. 
 
 ### Installation Instructions:
-[//]: <> (What steps does a person have to take to get your app cloned down and running?)
+The instructions were to 
+1. Fork the repository.
+2. Clone the repository to my local machine.
+3. Follow the instructions on the Turing link for the Self Care Center project.
+
 
 ### Preview of App:
-[//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
+https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExazMydXczcG1xODhubGh6N2RtdzdwbzQ4ZDZmaDlzZmZ1OHoxeGU4aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YKW76bh6uOj4FfGYw0/giphy.gif
 
 ### Context:
-[//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
+- I struggled on creating the HTML and connecting it to js. I googled and watched a lot of helpful Scrimba videos all Thursday and Friday evening. Once I got a skeleton of my HTML, CSS, and JavaScript, I reached out to my rock to help steer me in the right direction. A fresh pair of eyes is what I needed to solidify the code I had. I worked on this project an average of 5 hours a night during the week and all day over the weekend. I am currently going into week four of Turing, and I'm hopeful to end this module soon with confidence in my current level of knowledge for module two.
 
 ### Contributors:
-[//]: <> (Who worked on this application? Link to their GitHubs.)
+-This was a solo project.
 
 ### Learning Goals:
-[//]: <> (What were the learning goals of this project? What tech did you work with?)
+- This project was very similar to our last project yet it was elevated because we had to create our own HTML and CSS. It was nice to work on this project solo so that I was aware of my weaknesses since I did not have a partner to rely on. I realized that I need to practice on syntax for functions. It's one thing to hear the information during a zoom call but, personally for me, I find myself absorbing and solidifying more during a one on one conversation. Although I did not complete the project fully, I now understand the key to me succeeding and completing Turing ready for the workforce is to sign up for student support and reach out to my cohort and rocks. This solo project was a real eye opener for me to strengthen my weaknesses in coding to become a better coder.  
 
 ### Wins + Challenges:
-[//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
+1. I struggled for multiple days trying to figure out how to add the radio buttons and the 'receive message' button to appear on the same container. I tried what felt like everything to have them inside the same container while displaying the radio buttons above the 'receive message' button. Today, Sunday, I figured out that I didn't have a class name for each type of button. Once I figured that out I was able to refactor my HTML code and set the flex direction to row.
+2. A win was applying the Scrimba lesson on flexbox. I definately will utilize those video lessons again.

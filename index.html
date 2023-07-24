@@ -5,7 +5,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-  
-    <script type="text/javascript" src="main.js"></script>
+    <h1>✨Self Care Center✨</h1>
+    <h2>Which type of message?</h2>
+    <section class="buttonContainer">
+      <div class="radioButtonContainer"> 
+        <input type="radio" id="affirmationButton" name="drone" value="affirmation"
+        <label for="affirmation"><i>affirmation</i></label>
+        <input type="radio" id="mantraButton" name="drone" value="mantra"
+        <label for="mantra"><i>mantra</i></label>
+      </div>
+      <div class="receiveMessageButtonContainer">
+        <button class="receiveMessageButton">Receive Message</button>
+      </div>
+    </section>
+    <section class="messageContainer">
+      <div>
+        <h3 class="current-message"></h3> 
+      </div>
+    </section>
   </body>
+  <script type="text/javascript" src="main.js"></script>
 </html>
